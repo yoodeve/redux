@@ -1,7 +1,7 @@
 import { createRoot } from "react-dom/client";
 import { Provider } from "react-redux";
 import App from "./components/App";
-import store from "./routes/store";
+import store from "./redux/configStore";
 const container = document.getElementById("root");
 const root = createRoot(container);
 // createRoot(container!) if you use TypeScript
